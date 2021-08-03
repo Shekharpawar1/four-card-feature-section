@@ -171,7 +171,7 @@ h2 {
         width: 25rem;
         margin-top: 1.5rem;
         position: absolute;
-        left: 30rem;
+        left: 28rem;
         box-shadow: 0 0 8px #c0bdbd;
 
     }
@@ -238,7 +238,7 @@ h2 {
         position: absolute;
     
         left: 9rem;
-        top: 25rem;
+        top: 20rem;
     }
 
     .third-card {
@@ -260,14 +260,15 @@ h2 {
         height: 55rem;
     }
 
+
     h1 {
-        padding: 2rem 25rem;
+        padding: 2rem 30rem;
 
     }
 
     h2 {
         margin-top: -1.5rem;
-        padding: 0.1rem 10rem 0rem 28rem;
+        padding: 0.1rem 10rem 0rem 33rem;
     }
 
     .info {
