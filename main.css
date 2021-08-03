@@ -108,7 +108,7 @@ h2{
     margin-left: .3rem;
 }
 
-@media only screen and (min-width:768px)  {
+@media only screen and (min-width:768px) and (max-width:1280px) {
     main{
         width: 85rem;
         height: 55rem;
@@ -207,7 +207,7 @@ h2{
     }
 }
 
-@media only screen and (min-width:1280px) and (max-width:2000px){
+@media only screen and (min-width:1280px) and (max-width:1920px){
     main{
         width: 80rem;
     }
