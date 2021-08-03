@@ -9,7 +9,7 @@
     --text-color1: hsl(234, 12%, 34%);
     --text-color2:hsl(229, 6%, 66%);
     --text-color3:hsl(0, 0%, 98%);
-    --body-background:;
+    --body-background:  #eaeaea;;
     --card-top1:hsl(180, 62%, 55%);
     --card-top2: hsl(0, 78%, 62%);
     --card-top3:hsl(34, 97%, 64%);
@@ -17,7 +17,7 @@
     --font-size: 15px;
 }
 body{
-    font-family: ;
+    font-size: var(--font-size);
     font-size: var(--font-size);
     background-color: #eaeaea;
     font-family: 'Poppins', sans-serif;
@@ -29,7 +29,7 @@ main{
     border-radius: 10px;
 }
 .container{
-    height: 80rem;
+    height: 82rem;
     margin: 1.5rem;
     
 }
@@ -59,10 +59,11 @@ h2{
     margin-top: -.04rem;
     margin-left: .3rem;
 }
-.first-card, .second-card, .third-card{
+.first-card, .second-card, .third-card, .fourth-card{
     /* border:1px solid black; */
     border-radius: 20px;
     height: 15rem;
+    box-shadow: 0 0 8px #c0bdbd;
       
 }
 .first-card>h2, .second-card>h2, .third-card>h2, .fourth-card>h2{
@@ -141,7 +142,7 @@ h2{
         margin-top: 1.5rem;
         position: absolute;
         left:35rem;
-        border:1px solid black;
+        box-shadow: 0 0 8px #c0bdbd;
           
     }
     .first-card>h2, .second-card>h2, .third-card>h2, .fourth-card>h2{
