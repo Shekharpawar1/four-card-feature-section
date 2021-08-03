@@ -140,17 +140,17 @@ h2 {
     }
 
     h1 {
-      padding: 2rem 25rem;
+      padding: 2rem 20rem;
 
     }
 
     h2 {
         margin-top: -1.5rem;
-        padding: 0.1rem 10rem 0rem 28rem;
+        padding: 0.1rem 10rem 0rem 25rem;
     }
 
     .info {
-        padding: 1.5rem 23rem;
+        padding: 1.5rem 18rem;
         text-align: center;
     }
 
@@ -171,7 +171,7 @@ h2 {
         width: 25rem;
         margin-top: 1.5rem;
         position: absolute;
-        left: 35rem;
+        left: 30rem;
         box-shadow: 0 0 8px #c0bdbd;
 
     }
