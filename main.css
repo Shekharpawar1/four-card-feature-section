@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --text-color1: hsl(234, 12%, 34%);
+    --text-color2:hsl(229, 6%, 66%);
+    --text-color3:hsl(0, 0%, 98%);
+    --body-background:;
+    --card-top1:hsl(180, 62%, 55%);
+    --card-top2: hsl(0, 78%, 62%);
+    --card-top3:hsl(34, 97%, 64%);
+    --card-top4:hsl(212, 86%, 64%);
+    --font-size: 15px;
+}
+body{
+    font-family: ;
+    font-size: var(--font-size);
+    background-color: #eaeaea;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    width: 26rem;
+    background-color:white;
+    margin: 0 auto ;
+    border-radius: 10px;
+}
+.container{
+    height: 80rem;
+    margin: 1.5rem;
+    
+}
+h1{
+    font-weight: 200;
+    padding-top:2rem;
+    padding-left: .2rem;
+    color:var(--text-color2);
+}
+h2{
+    font-weight: 600;
+    padding-top: .2rem;
+    padding-left: 2.5rem;
+    color: var(--text-color1);
+}
+.info{
+    color:var(--text-color2);
+    font-weight: 400;
+    padding: 2rem 1rem;
+}
+
+.card-top1{
+    background:var(--card-top1);
+    height: .5rem;
+    border-radius: 20.5px 20px 0px 0px;
+    width: 22.3rem;
+    margin-top: -.04rem;
+    margin-left: .3rem;
+}
+.first-card, .second-card, .third-card{
+    /* border:1px solid black; */
+    border-radius: 20px;
+    height: 15rem;
+      
+}
+.first-card>h2, .second-card>h2, .third-card>h2, .fourth-card>h2{
+    padding-left: 2rem;
+}
+.first-card >h3, .second-card>h3, .third-card>h3, .fourth-card>h3{
+    color: var(--text-color2);
+    font-weight: 400;
+    padding-left: 2rem;
+}
+.image{
+    float: right;
+    padding-right: 2rem;
+    padding-top: 2rem;
+}
+
+.card-top2{
+    background:var(--card-top2);
+    height: .5rem;
+    border-radius: 20.5px 20px 0px 0px;
+    width: 22.3rem;
+    margin-top: -.04rem;
+    margin-left: .3rem;
+}
+.second-card, .third-card, .fourth-card{
+    margin-top: 1.5rem;
+}
+.card-top3{
+    background:var(--card-top3);
+    height: .5rem;
+    border-radius: 20.5px 20px 0px 0px;
+    width: 22.3rem;
+    margin-top: -.04rem;
+    margin-left: .3rem;
+}
+.card-top4{
+    background:var(--card-top4);
+    height: .5rem;
+    border-radius: 20.5px 20px 0px 0px;
+    width: 22.3rem;
+    margin-top: -.04rem;
+    margin-left: .3rem;
+}
+
+@media only screen and (min-width:768px)  {
+    main{
+        width: 80rem;
+        height: 55rem;
+    }
+    h1{
+        padding: 2rem 25rem;
+
+    }
+    h2{
+        margin-top: -1.5rem;
+        padding: 0.1rem 10rem 0rem 28rem;
+    }
+    .info{
+        padding:1.5rem 23rem;
+        text-align: center;
+    }
+    .card-top1{
+        background:var(--card-top1);
+        height: .5rem;
+        border-radius: 20.5px 20px 0px 0px;
+        width: 24.3rem;
+        margin-top: -.04rem;
+       
+        margin-left: .3rem;
+    }
+    .first-card, .second-card, .third-card, .fourth-card{
+        /* border:1px solid black; */
+        border-radius: 20px;
+        height: 15rem;
+        width: 25rem;
+        margin-top: 1.5rem;
+        position: absolute;
+        left:35rem;
+        border:1px solid black;
+          
+    }
+    .first-card>h2, .second-card>h2, .third-card>h2, .fourth-card>h2{
+        padding-left: 2rem;
+        padding-top: 3rem;
+    }
+    .first-card >h3, .second-card>h3, .third-card>h3, .fourth-card>h3{
+        color: var(--text-color2);
+        font-weight: 400;
+        padding-left: 2rem;
+        padding-top: .5rem;
+    }
+    .image{
+        float: right;
+        padding-right: 2rem;
+        padding-top: 2rem;
+    }
+    
+    .card-top2{
+        background:var(--card-top2);
+        height: .5rem;
+        width: 24.3rem;
+        border-radius: 20.5px 20px 0px 0px;
+     
+        margin-top: -.04rem;
+        margin-left: .3rem;
+    }
+    .second-card, .third-card, .fourth-card{
+        margin-top: 1.5rem;
+    }
+    .card-top3{
+        background:var(--card-top3);
+        height: .5rem;
+        border-radius: 20.5px 20px 0px 0px;
+        width: 24.3rem;
+        margin-top: -.04rem;
+        margin-left: .3rem;
+    }
+    .card-top4{
+        background:var(--card-top4);
+        height: .5rem;
+        border-radius: 20.5px 20px 0px 0px;
+        width: 24.3rem;
+        margin-top: -.04rem;
+        margin-left: .3rem;
+    }
+    
+    .second-card{
+        position: absolute;
+        left:9rem;
+        top:25rem;
+    }
+    .third-card{
+        position: absolute;
+        top:25rem;
+        left:61rem;
+    }
+    .fourth-card{
+        position: absolute;
+        top:35rem;
+        left:35rem;
+    }
+}
+
+@media only screen and (max-width:768) {
+    body{
+        background: black;
+    }
+    
+}
